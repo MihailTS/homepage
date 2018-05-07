@@ -156,3 +156,38 @@ body,p,h1,h2{
     display: flex;
     flex-wrap: wrap;
 }
+
+
+/*media queries*/
+@media screen and (max-width: 980px) {
+    .content-wrapper{
+        width:100%;
+    }
+}
+@media screen and (max-width: 770px) {
+    .general-info{
+        align-items: center;
+    }
+    .contacts__item{
+        width:100%;
+        margin: 10px 0;
+    }
+}
+@media screen and (max-width: 680px) {
+    .row-nums{
+        display:none;
+    }
+}
+@media screen and (max-width: 630px) {
+    .row-nums{
+        display:none;
+    }
+    .extra-info{
+        display:block;
+    }
+}
+@media screen and (max-width: 500px) {
+    .general-info>div{
+        flex: 1 1 auto;
+    }
+}
